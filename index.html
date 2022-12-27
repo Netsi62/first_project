@@ -61,13 +61,15 @@
 
         </div>
         <div>
-            <img src="eventimg/" alt="Map To Show Location">
+            <img src="eventimg/map.jpg" alt="Map To Show Location">
             <form action="ContactUs.html">
                 <label for="name">NAME:</label>
-                <input type="text" id="name" name="name" placeholder="yourname">
+                <input type="text" id="name" name="name" placeholder="yourname"
+                 required>
                 <br><br>
                 <label for="email">EMAIL:</label>
-                <input type="email" id="email" name="email" placeholder="youremail">
+                <input type="email" id="email" name="email" placeholder="youremail"
+                pattern="name@gamil.com" size="30" required>
                 <br><br>
                 <label for="message">MESSAGE</label>
                 <textarea name="message" id="message" placeholder="your message or comment to us" cols="20" rows="10"></textarea>
@@ -81,18 +83,18 @@
             <p>You're really good at focusing on what 
                 customers need and require. You have
                  a real instinct to understand our customers.Good work!</p>
-            <img src="eventimg/person1.jpg" alt="Customer Photo">
+            <img src="eventimg/person1.jpg" alt="Customer1 Photo">
             <h4>MIHIRET SHIMELIS</h4>
             <h5>SOFTWARE ENGINNER</h5>
             <p>You have the natural ability to understand and feel what your customers are experiencing, and you are able to meet their needs effectively. Well done!</p>
-            <img src="eventimg/person2.jpg" alt="Customer Photo">
+            <img src="eventimg/person2.jpg" alt="Customer2 Photo">
             <h4>RAHWA ADDIS</h4>
             <h5>CIVIL ENGINNER</h5>
             <p>I use your planning only service at march 11 2021 And
                 it was very nice service you make the plan with my need and it 
                 really help me to save my money and to get the best weeding
             </p>
-            <img src="eventimg/person3.jpg" alt="Customer Photo">
+            <img src="eventimg/person3.jpg" alt="Customer3 Photo">
             <h4>HEWAN WONDESSEN</h4>
              <h5>ELECTRICAL ENGINNER</h5>
             <a href="Testimony.html">More Testimony</a>
@@ -100,13 +102,34 @@
         <div>
             <h2>services</h2>
             <img src="eventimg/weeding1.jpeg" alt="weeding ceremony">
+            <p>
+                <!-- A link to a transcript within the same document -->
+                  <a rel="transcript" for="theVideo" title="English transcript" href="#theText">Transcript below</a>
+            </p>      
             <video width="500" height="500"  
             controls="controls">
                 <source src="eventimg/video.mp4" type="video/mp4" > 
                 <track kind="captions" src="caption.vtt" srclang="en"
                 label="English" >
-                
+                <p>
+                    A decor that have golden light bulb with four people two boys
+                    and two girls the person at the left of the people are young and he wear 
+                    white blouse and black butterfly tie. next to him their is a girl with brown her wear a golden dress.
+                    at the third their is a young women with white hair wear a white dress and have a white neckless on hear neck
+                    at the last their is a old men with white hair and wear eyeglass 
+                    also he wear a white blouse with a black tie. they all have a 
+                    wine glass with full off golden wine.they became smile and clash of glasses.
+                    
+                </p>
             </video>
+                <transcript id="theText">This is the english language
+                    there is four people which are stand aline thise people are see each other
+                    they seem very happy, they celebrate some event. they make a clash of glass and see at the camera with a smily face.
+                </transcript>
+                
+           
+            
+            
             <p>we have many services that is begin since 1985 and we 
                 give all kind of services that the customer wants. but our main 
                 services are weeding, graduation, birthday, and planning only services.
@@ -131,7 +154,8 @@
             <h4>ENTER YOUR EMAIL...</h4>
             <form>
                 <label for="email1">EMAIL:</label>
-                <input type="email" id="email1" name="email" placeholder="youremail">
+                <input type="email" id="email1" name="email" placeholder="youremail"
+                pattern="name@gamil.com" size="30" required>
                 <br><br>
                 <button type="button">SUBSCRIBE</button>
 
